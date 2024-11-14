@@ -1,0 +1,27 @@
+@media (min-width: 1200px){
+    #wrapper{
+        width: 100%;
+        height: 100%;
+    }
+    section{
+        width: 100%;
+        height: 300px;
+        display: flex;
+    }
+    .texto-carousel{
+        width: 320px;
+        height: auto;
+        top: 250px;
+        left: 60px;
+        position: absolute;
+    }
+
+    .texto-carousel h1{
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+
+    .texto-carousel span{
+        color: #FDBA22;  
+    }
+}
