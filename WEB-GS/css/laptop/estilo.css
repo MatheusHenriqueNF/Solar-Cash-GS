@@ -15,7 +15,7 @@
     }
 
     h2{
-        font-size: 48px;
+        font-size: 46px;
         color: #2D0070;
     }
 
@@ -42,7 +42,7 @@
     }
 
     .texto-carousel{
-        width: 620px;
+        width: 540px;
         height: auto;
         top: 40%;
         left: 60px;
@@ -50,7 +50,7 @@
     }
 
     .texto-carousel h1{
-        font-size: 50px;
+        font-size: 40px;
         color: #FFFFFF;
     }
 

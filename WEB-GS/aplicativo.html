@@ -7,10 +7,20 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+     <!-- JQUERY PARA FAZER O BOTÃO DE MENU MOBILE -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <!-- css versão desktop (min-width = 1200px) -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/desktop/header.css">
     <link rel="stylesheet" href="css/desktop/estilo.css">
-    <link rel="stylesheet" href="css/desktop/telaAplicativo.css">
+    <link rel="stylesheet" href="css/desktop/telaAplicativo.css"><!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/laptop/header.css">
+    <link rel="stylesheet" href="css/laptop/estilo.css">
+    <link rel="stylesheet" href="css/laptop/telaAplicativo.css">
 
     <title>Baixe o aplicativo</title>
 </head>
@@ -42,6 +52,7 @@
                 
                 <picture>
                     <source srcset="img/carousel2.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/carousel2_1199.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
                     <img src="" alt="carousel 1 de abertura a sessão">
                 </picture>
 
@@ -59,7 +70,8 @@
                     <picture>
 
                         <source srcset="img/explicacao1.png" media="(min-width: 1200px)" />
-                        <img src="" alt="grafico modelo de uma das funcionalidades do aplicativo">
+                        <source srcset="img/explicacao1.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <img src="" alt="grafico modelo de uma das funcionalidades do aplicativo" title="grafico modelo de uma das funcionalidades do aplicativo">
 
                     </picture>
                 </div>
@@ -80,7 +92,8 @@
                     <picture>
 
                         <source srcset="img/explicacao2.png" media="(min-width: 1200px)" />
-                        <img src="" alt="benefício 1">
+                        <source srcset="img/explicacao2.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <img src="" alt="explicação 1" title="explicacao 1">
 
                     </picture>
                 </div>
@@ -93,7 +106,8 @@
                     <picture>
 
                         <source srcset="img/explicacao3.png" media="(min-width: 1200px)" />
-                        <img src="" alt="benefício 1">
+                        <source srcset="img/explicacao3.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <img src="" alt="explicação 3" title="explicação 3">
 
                     </picture>
                 </div>
@@ -119,19 +133,22 @@
                     <picture>
 
                         <source srcset="img/baixar1.png" media="(min-width: 1200px)" />
-                        <img src="" alt="benefício 1">
+                        <source srcset="img/baixar1.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <img src="" alt="tela 1" title="tela 1">
 
                     </picture>
                     <picture>
 
                         <source srcset="img/beneficio4.png" media="(min-width: 1200px)" />
-                        <img src="" alt="benefício 1">
+                        <source srcset="img/beneficio4.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <img src="" alt="tela 2" title="tela 2">
 
                     </picture>
                     <picture>
 
                         <source srcset="img/baixar3.png" media="(min-width: 1200px)" />
-                        <img src="" alt="benefício 1">
+                        <source srcset="img/baixar3.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <img src="" alt="tela 3" title="tela 3">
 
                     </picture>
                   
