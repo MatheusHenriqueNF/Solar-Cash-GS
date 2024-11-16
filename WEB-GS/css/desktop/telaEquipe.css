@@ -1,0 +1,52 @@
+@media (min-width: 1200px) {
+    .container-equipe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .membro {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        width: 550px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center; 
+    }
+    
+    .foto-membro {
+        border-radius: 50%; 
+        margin-right: 15px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .info-membro {
+        text-align: left;
+    }
+    
+    .membro h2 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    
+    .links-sociais {
+        margin-top: 10px;
+    }
+    
+    .links-sociais a {
+        color: #333;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+    
+    .links-sociais a:hover {
+        color: #0077b5;
+    }
+}
