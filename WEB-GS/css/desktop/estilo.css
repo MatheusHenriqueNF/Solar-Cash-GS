@@ -9,6 +9,11 @@
         padding: 8px 4%;
     }
 
+    span{
+        color:  #FDBA22;
+        font-weight: 500;
+    }
+
     h2{
         font-size: 48px;
         color: #2D0070;
@@ -50,8 +55,9 @@
     }
 
     .texto-carousel span{
-        color: #FDBA22;  
+        font-weight: bold; 
     }
+
 
 
     .conteudo-img{
