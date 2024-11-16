@@ -94,4 +94,53 @@
         width: 55%;
         margin-right: 45px;
     }
+
+    footer {
+        background-color: #f3f3f3;
+        padding: 20px;
+        text-align: center;
+        clear: both;
+        margin-top: 100px;
+      }
+      
+      .container {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      
+      .time {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .time li {
+        margin-right: 20px;
+      }
+      
+      .time span {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      
+      .time a {
+        color: #337ab7;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+      
+      .time a:hover {
+        color: #23527c;
+      }
+      
+      .fab {
+        font-size: 18px;
+        margin-right: 10px;
+      }
 }
