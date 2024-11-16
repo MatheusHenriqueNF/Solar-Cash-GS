@@ -55,6 +55,7 @@
             </section>
 
             <div class="container-equipe">
+                <h2>Nossa Equipe</h2>
                 <div class="membro">
                    
                    <picture>
@@ -104,7 +105,30 @@
                 </div>
             </div>
 
+            <section id="frm-contato">
+                <h2>Formulário de Contato</h2>
+                <form id="formulario-contato">
+                    <div class="grupo-formulario">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                        <span class="mensagem-erro" id="erro-nome"></span>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="mensagem-erro" id="erro-email"></span>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="descricao">Descrição:</label>
+                        <textarea id="descricao" name="descricao" rows="4" required></textarea>
+                        <span class="mensagem-erro" id="erro-descricao"></span>
+                    </div>
+                    <button type="submit" disabled>Enviar</button>
+                </form>
+            </section>
+
         </main>
+
         <footer>
             <div class="container">
               <p>&copy; 2023 Todos os direitos reservados.</p>
@@ -128,5 +152,7 @@
             </div>
           </footer>
     </div>
+    <script src="js/validadar.js"></script>
+    <script src="js/scriptmenu.js"></script>
 </body>
 </html>
