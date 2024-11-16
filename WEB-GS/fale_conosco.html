@@ -7,10 +7,19 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+     <!-- JQUERY PARA FAZER O BOTÃO DE MENU MOBILE -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <!-- css versão desktop (min-width = 1200px) -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/desktop/header.css">
     <link rel="stylesheet" href="css/desktop/estilo.css">
-    <link rel="stylesheet" href="css/desktop/telaEquipe.css">
+    <link rel="stylesheet" href="css/desktop/telaEquipe.css"> <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/laptop/header.css">
+    <link rel="stylesheet" href="css/laptop/estilo.css">
+    <link rel="stylesheet" href="css/laptop/telaEquipe.css">
 
     <title>Baixe o aplicativo</title>
 </head>
@@ -43,6 +52,7 @@
                 
                 <picture>
                     <source srcset="img/carousel3.png" media="(min-width: 1200px)" />
+                    <source srcset="img/carousel3.png" media="(min-width: 992px) and (max-width: 1199px)" />
                     <img src="" alt="carousel 1 de abertura a sessão">
                 </picture>
 
@@ -60,6 +70,7 @@
                    
                    <picture>
                     <source srcset="img/membro1.jpg" media="(min-width: 1200px)" />
+                    <source srcset="img/membro1.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
                     <img src="" alt="foto do membro 1" class="foto-membro">
                    </picture>
                    
@@ -77,6 +88,7 @@
                 <div class="membro">
                     <picture>
                         <source srcset="img/membro2.jpeg" media="(min-width: 1200px)" />
+                        <source srcset="img/membro2.jpeg" media="(min-width: 992px) and (max-width: 1199px)" />
                         <img src="" alt="foto do membro 2" class="foto-membro">
                        </picture>
                     <div class="info-membro">
@@ -92,6 +104,7 @@
                 <div class="membro">
                     <picture>
                         <source srcset="img/membro3.jpg" media="(min-width: 1200px)" />
+                        <source srcset="img/membro3.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
                         <img src="" alt="foto do membro 3" class="foto-membro">
                        </picture>
                     <div class="info-membro">

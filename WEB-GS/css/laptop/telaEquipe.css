@@ -1,4 +1,9 @@
 @media (min-width: 992px) and (max-width: 1199px) {
+    .texto-carousel{
+        width: 450px;
+    }
+
+    
     .container-equipe {
         display: flex;
         flex-direction: column;
