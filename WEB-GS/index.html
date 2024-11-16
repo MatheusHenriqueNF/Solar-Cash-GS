@@ -7,10 +7,23 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    
+    <!-- JQUERY PARA FAZER O BOTÃO DE MENU MOBILE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <!-- css versão desktop (min-width = 1200px) -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/desktop/header.css">
     <link rel="stylesheet" href="css/desktop/estilo.css">
     <link rel="stylesheet" href="css/desktop/telaIndex.css">
+
+    <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/laptop/header.css">
+    <link rel="stylesheet" href="css/laptop/estilo.css">
+    <link rel="stylesheet" href="css/laptop/telaIndex.css">
 
     <title>Solar Cash</title>
 </head>
@@ -22,15 +35,16 @@
             <a href="index.html">
                 <picture>
                     <source srcset="img/logo.png" media="(min-width: 1200px)" />
+                    <source srcset="img/logo.png" media="(min-width: 992px) and (max-width: 1199px)" />
                     <img src="" alt="logo Solar Cash">
                 </picture>
             </a>
         </div>
         <nav>
             <ul>
-                <a href="#beneficio1"><li class="item">Benefícios</li></a>
+                <a href="index.html#beneficio1"><li class="item">Benefícios</li></a>
                 <a href="aplicativo.html"><li class="item">Como Funciona</li></a>
-                <a href="aplicativo.html"><li class="item">Aplicativo</li></a>
+                <a href="aplicativo.html#explicacao4"><li class="item">Aplicativo</li></a>
                 <a href="fale_conosco.html"><div id="fale-conosco"><li class="item">Fale Conosco</li></div></a>
             </ul>
         </nav>
@@ -42,7 +56,8 @@
                 
                 <picture>
                     <source srcset="img/carousel1.jpg" media="(min-width: 1200px)" />
-                    <img src="" alt="carousel 1 de abertura a sessão">
+                    <source srcset="img/carousel1.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <img src="" alt="carousel 1 de abertura a sessão" title="carousel 1 de abertura a sessão">
                 </picture>
 
                 <div class="texto-carousel">
@@ -59,6 +74,7 @@
                     <picture>
 
                         <source srcset="img/beneficio1.jpg" media="(min-width: 1200px)" />
+                        <source srcset="img/beneficio1.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
                         <img src="" alt="benefício 1">
 
                     </picture>
@@ -81,7 +97,8 @@
                     <picture>
 
                         <source srcset="img/beneficio2.png" media="(min-width: 1200px)" />
-                        <img src="" alt="benefício 1">
+                        <source srcset="img/beneficio2.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                        <img src="" alt="benefício 2">
 
                     </picture>
                 </div>
