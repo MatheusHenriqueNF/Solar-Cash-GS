@@ -65,19 +65,23 @@
     }
 
     .conteudo-img img{
-        width: 85%;
-        height: 100%;
+        width: 400px;
+        height: 350px;
     }
 
     .direita-img{
         width: 50%;
         height: auto;
-        margin-right: 10px;
+        padding-left: 0px;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
     }
     .direita-img img{
-        width: 70%;
-        height: 70%;
-        margin-left: 10px;
+        width: 500px;
+        height: 300px;
+        margin-left: 0px;
     }
 
     .esquerda-texto{

@@ -11,17 +11,24 @@
     #beneficio2{
         height: 300px;
         padding-top: 0px;
+        margin-bottom: 120px;
     }
 
     #beneficio3{
         height: 350px;
-        padding-top: 0px;
+        padding-top: 20px;
         align-items: flex-start;
     }
 
     #beneficio4{
         height: 600px;
         padding-top: 0px;
+    }
+
+    #beneficio4 img{
+        width: 400px;
+        height: 700px;
+        margin-left: 100px;
     }
 
 }
