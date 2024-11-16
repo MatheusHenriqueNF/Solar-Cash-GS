@@ -68,6 +68,8 @@
 
     .conteudo-texto{
         width: 60%;
+        display: flex;
+        flex-direction: column;
     }
 
     .conteudo-img img{
