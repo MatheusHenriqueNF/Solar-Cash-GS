@@ -20,6 +20,12 @@
     <link rel="stylesheet" href="css/laptop/header.css">
     <link rel="stylesheet" href="css/laptop/estilo.css">
     <link rel="stylesheet" href="css/laptop/telaEquipe.css">
+    <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/tablet/estilo.css">
+    <link rel="stylesheet" href="css/tablet/header.css">
+    <link rel="stylesheet" href="css/tablet/telaEquipe.css">
 
     <title>Baixe o aplicativo</title>
 </head>
@@ -31,6 +37,8 @@
             <a href="index.html">
                 <picture>
                     <source srcset="img/logo.png" media="(min-width: 1200px)" />
+                    <source srcset="img/logo.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <source srcset="img/logo.png" media="(min-width: 768px) and (max-width: 991px)" />
                     <img src="" alt="logo Solar Cash">
                 </picture>
             </a>
@@ -42,8 +50,28 @@
                 <a href="aplicativo.html#explicacao4"><li class="item">Aplicativo</li></a>
                 <a href="fale_conosco.html"><div id="fale-conosco"><li class="item">Fale Conosco</li></div></a>
             </ul>
+
+            <button id="btn-menu"><i class="fa-solid fa-bars"></i></button>
         </nav>
+
     </header>
+    <div id="mobile_menu">
+        <ul id="mobile_nav_lista">
+            <a href="index.html#beneficio1" class="nav-item">
+                <li>Benefícios</li>
+            </a>
+            <a href="aplicativo.html" class="nav-item">
+                <li>Como Funciona</li>
+            </a>
+            <a href="aplicativo.html#explicacao4
+            " class="nav-item">
+                <li>Aplicativo</li>
+            </a>
+            <a href="fale_conosco.html" class="nav-item">
+                <li>Fale Conosco</li>
+            </a>
+        </ul>
+    </div>
 
     <div id="wrapper">
         <main>
@@ -52,7 +80,8 @@
                 
                 <picture>
                     <source srcset="img/carousel3.png" media="(min-width: 1200px)" />
-                    <source srcset="img/carousel3.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <source srcset="img/carousel3_1199.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <source srcset="img/carousel3_991.png" media="(min-width: 768px) and (max-width: 991px)" />
                     <img src="" alt="carousel 1 de abertura a sessão">
                 </picture>
 
@@ -71,7 +100,8 @@
                    <picture>
                     <source srcset="img/membro1.jpg" media="(min-width: 1200px)" />
                     <source srcset="img/membro1.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
-                    <img src="" alt="foto do membro 1" class="foto-membro">
+                    <source srcset="img/membro1.jpg" media="(min-width: 768px) and (max-width: 991px)" />
+                    <img src="" alt="foto do membro 1" tilte="foto do membro 1" class="foto-membro">
                    </picture>
                    
                     
@@ -89,7 +119,8 @@
                     <picture>
                         <source srcset="img/membro2.jpeg" media="(min-width: 1200px)" />
                         <source srcset="img/membro2.jpeg" media="(min-width: 992px) and (max-width: 1199px)" />
-                        <img src="" alt="foto do membro 2" class="foto-membro">
+                        <source srcset="img/membro2.jpeg" media="(min-width: 768px) and (max-width: 991px)" />
+                        <img src="" alt="foto do membro 2" tilte="foto do membro 1" class="foto-membro">
                        </picture>
                     <div class="info-membro">
                         <h2>Matheus Henrique Nascimento de Freitas</h2>
@@ -105,7 +136,8 @@
                     <picture>
                         <source srcset="img/membro3.jpg" media="(min-width: 1200px)" />
                         <source srcset="img/membro3.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
-                        <img src="" alt="foto do membro 3" class="foto-membro">
+                        <source srcset="img/membro3.jpg" media="(min-width: 768px) and (max-width: 991px)" />
+                        <img src="" alt="foto do membro 3" title="foto do membro 3" class="foto-membro">
                        </picture>
                     <div class="info-membro">
                         <h2>Pedro Henrique de Souza Sena </h2>
