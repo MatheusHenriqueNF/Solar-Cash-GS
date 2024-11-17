@@ -21,6 +21,12 @@
     <link rel="stylesheet" href="css/laptop/header.css">
     <link rel="stylesheet" href="css/laptop/estilo.css">
     <link rel="stylesheet" href="css/laptop/telaAplicativo.css">
+    <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/tablet/estilo.css">
+    <link rel="stylesheet" href="css/tablet/header.css">
+    <link rel="stylesheet" href="css/tablet/telaAplicativo.css">
 
     <title>Baixe o aplicativo</title>
 </head>
@@ -32,19 +38,41 @@
             <a href="index.html">
                 <picture>
                     <source srcset="img/logo.png" media="(min-width: 1200px)" />
+                    <source srcset="img/logo.png" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <source srcset="img/logo.png" media="(min-width: 768px) and (max-width: 991px)" />
                     <img src="" alt="logo Solar Cash">
                 </picture>
             </a>
         </div>
         <nav>
             <ul>
-                <a href="#beneficio1"><li class="item">Benefícios</li></a>
+                <a href="index.html#beneficio1"><li class="item">Benefícios</li></a>
                 <a href="aplicativo.html"><li class="item">Como Funciona</li></a>
-                <a href="aplicativo.html"><li class="item">Aplicativo</li></a>
+                <a href="aplicativo.html#explicacao4"><li class="item">Aplicativo</li></a>
                 <a href="fale_conosco.html"><div id="fale-conosco"><li class="item">Fale Conosco</li></div></a>
             </ul>
+
+            <button id="btn-menu"><i class="fa-solid fa-bars"></i></button>
         </nav>
+
     </header>
+    <div id="mobile_menu">
+        <ul id="mobile_nav_lista">
+            <a href="index.html#beneficio1" class="nav-item">
+                <li>Benefícios</li>
+            </a>
+            <a href="aplicativo.html" class="nav-item">
+                <li>Como Funciona</li>
+            </a>
+            <a href="aplicativo.html#explicacao4
+            " class="nav-item">
+                <li>Aplicativo</li>
+            </a>
+            <a href="fale_conosco.html" class="nav-item">
+                <li>Fale Conosco</li>
+            </a>
+        </ul>
+    </div>
 
     <div id="wrapper">
         <main>
@@ -53,6 +81,7 @@
                 <picture>
                     <source srcset="img/carousel2.jpg" media="(min-width: 1200px)" />
                     <source srcset="img/carousel2_1199.jpg" media="(min-width: 992px) and (max-width: 1199px)" />
+                    <source srcset="img/carousel2_1199.jpg" media="(min-width: 768px) and (max-width: 991px)" />
                     <img src="" alt="carousel 1 de abertura a sessão">
                 </picture>
 

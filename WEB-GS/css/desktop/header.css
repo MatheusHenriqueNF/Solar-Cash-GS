@@ -25,6 +25,10 @@
         font-weight: 600;
     }
 
+    #mobile_menu, #btn-menu{
+        display: none;
+    }
+
     #logo{
         width: 300px;
         height: 80px;

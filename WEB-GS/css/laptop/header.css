@@ -24,6 +24,10 @@
         font-size: 15px;
         font-weight: 600;
     }
+    
+    #mobile_menu, #btn-menu{
+        display: none;
+    }
 
     #logo{
         width: 300px;
